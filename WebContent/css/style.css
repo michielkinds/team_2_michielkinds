@@ -9,7 +9,7 @@
 	 cursor: pointer;
 }
 
-.mdv {
+.mdv1 {
 	background-image: url("../img/mdv1.jpg");
 }
 
@@ -23,4 +23,25 @@
 
 .mdv4 {
 	background-image: url("../img/mdv4.jpg");
+}
+
+.sh1 {
+	background-image: url("../img/sh1.jpg");
+}
+
+.sh2 {
+	background-image: url("../img/sh2.jpg");
+}
+
+.sh3 {
+	background-image: url("../img/sh3.jpg");
+}
+
+.sh4 {
+	background-image: url("../img/sh4.jpg");
+}
+
+
+.navbar-brand {
+	padding-left: 0px;
 }
