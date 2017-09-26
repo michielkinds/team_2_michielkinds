@@ -8,6 +8,12 @@
 	 background-position: center center;
 	 cursor: pointer;
 }
+.text {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+
 
 .mdv1 {
 	background-image: url("../img/mdv1.jpg");
