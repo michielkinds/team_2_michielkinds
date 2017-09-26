@@ -18,41 +18,81 @@
 
 <body>
 
-<nav class="navbar navbar-inverse navbar-static-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="index.html">Mijn vakantie</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="ervaringen.html">Ervaringen</a></li>
-        <li><a href="commentaar.html">Commentaar</a></li> 
-      </ul>
-      
-    </div>
-  </div>
-</nav>
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Mijn vakantie</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="ervaringen.html">Ervaringen</a></li>
+					<li><a href="commentaar.html">Commentaar</a></li>
+				</ul>
 
-<div class="container">
-	<div class="row">
-	<div class="col-sm-12">
-		<h1>Mijn vakantie</h1>
-		<p>MICHIEL KINDS</p>
-	</div>
-		<div class="col-sm-12">
-			<h3>Opnames ECLIPSE</h3>
-			<div class=""
+			</div>
 		</div>
-	</div>
-</div>
+	</nav>
 
-<script src="https://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script> 
-<script src="js/bootstrap.js"></script>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>Mijn vakantie</h1>
+				<p>MICHIEL KINDS</p>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<h3>Opnames ECLIPSE</h3>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<h4>Maison de Viron</h4>
+
+						<div class="row">
+
+							<div class="col-xs-12 col-sm-6">
+								<div class="img1 mdv img-rounded"
+									onClick="openInNewTab('img/mdv1.jpg')"></div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="img1 mdv2 img-rounded"
+									onClick="openInNewTab('img/mdv2.jpg')"></div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="img1 mdv3 img-rounded"
+									onClick="openInNewTab('img/mdv3.jpg')"></div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="img1 mdv4 img-rounded"
+									onClick="openInNewTab('img/mdv4.jpg')"></div>
+							</div>
+
+						</div>
+					</div>
+					
+					<div class="col-xs-12">
+						<h4>Spiere-Helkijn</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.js"
+		integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+		crossorigin="anonymous" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function openInNewTab(url) {
+			var win = window.open(url, '_blank');
+			win.focus();
+		}
+	</script>
 </body>
 </html>

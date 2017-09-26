@@ -1,0 +1,26 @@
+.img1 {
+	width: 100%;
+	height: 300px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: center center;
+	 cursor: pointer;
+}
+
+.mdv {
+	background-image: url("../img/mdv1.jpg");
+}
+
+.mdv2 {
+	background-image: url("../img/mdv2.jpg");
+}
+
+.mdv3 {
+	background-image: url("../img/mdv3.jpg");
+}
+
+.mdv4 {
+	background-image: url("../img/mdv4.jpg");
+}
